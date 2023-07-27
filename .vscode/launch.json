@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python : Web Scraper",
+            "type": "python",
+            "request": "launch",
+            "program": "scraper_initiator.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "CHROME_DRIVER_PATH": "chromedriver.exe",
+                "PROXY_SERVER_IP_PORT": "None"
+            }
+        }
+    ]
+}
